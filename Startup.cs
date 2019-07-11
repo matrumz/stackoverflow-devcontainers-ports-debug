@@ -40,7 +40,6 @@ namespace stackoverflow_devcontainers_ports_debug
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
